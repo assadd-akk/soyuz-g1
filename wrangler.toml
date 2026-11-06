@@ -1,0 +1,10 @@
+name = "soyuz-g1"
+main = "src/worker.ts"
+compatibility_date = "2026-11-07"
+
+[vars]
+# Replace with your actual Turso database URL
+TURSO_DATABASE_URL = "libsql://your-database-name.turso.io"
+
+# Note: Keep your TURSO_AUTH_TOKEN secure by storing it as a Cloudflare secret:
+# Run: npx wrangler secret put TURSO_AUTH_TOKEN
